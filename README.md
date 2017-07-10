@@ -1,2 +1,2 @@
 # WeatherWear
-Please read WeatherWear_Installtion and WeatherWear_HowToStart for more drtails
+Please read WeatherWear_Installtion and WeatherWear_HowToStart for more details
