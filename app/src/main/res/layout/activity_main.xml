@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:stretchColumns="*"
+android:weightSum="6"
+    android:background="@drawable/background_4" >
+
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/textView5566"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:layout_gravity="center"
+            android:text="Weather Wear"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/showweather"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_span="4"
+            android:layout_gravity="center"
+            android:text="Location\nWeather\nTemperature"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+
+
+    <TableRow android:layout_weight="2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.user.outfitdaily.MainActivity"
+            android:layout_span="4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/appLogo"
+                android:src="@drawable/haha"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+        </RelativeLayout>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="穿搭推薦"
+                android:id="@+id/gotocamera"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="我的穿搭"
+                android:id="@+id/gotonotepad"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="登錄單品"
+                android:id="@+id/gotonewclothes"
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="我的衣櫃"
+                android:id="@+id/gotocloset"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+    </TableRow>
+<!--
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="登錄單品"
+                android:id="@+id/gotonewclothes"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="我的衣櫃"
+                android:id="@+id/gotocloset"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </TableRow>
+-->
+</TableLayout >
+
+

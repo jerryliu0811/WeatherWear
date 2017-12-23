@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/background_4"
+    android:weightSum="4"  >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/textView00"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="2"
+            android:text="檢視日記"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp" />
+
+    </TableRow>
+    <TableRow android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2" >
+
+            <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:context=".Update" >
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2"
+                    android:text="穿搭主題"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="35dp" />
+                <EditText
+                    android:id="@+id/update_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_span="2"
+                    android:ems="10" />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="穿搭靈感"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="35dp" />
+                <EditText
+                    android:id="@+id/update_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:ems="10" />
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_hat"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/hats_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_scarf"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/scarfs_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_shirt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/shirts_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_coat"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/coats_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_pants"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/pant_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.35">
+
+                        <ImageView
+                            android:id="@+id/update_shoes"
+                            android:layout_width="fill_parent"
+                            android:layout_height="120dp"
+                            android:src="@drawable/shoe_converted"
+                            android:padding="5dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dip"
+                        android:layout_height="120dp"
+                        android:layout_weight="0.10">
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/update_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改" />
+        <Button
+            android:id="@+id/update_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+    </TableRow>
+</TableLayout >

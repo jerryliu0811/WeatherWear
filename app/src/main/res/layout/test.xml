@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="@drawable/background_4"
+android:stretchColumns="*">
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:baselineAligned="false">
+    <TextView
+        android:id="@+id/test111"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_span="4"
+        android:gravity="center"
+        android:text="同款單品穿搭"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        />
+</TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/sameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:gravity="center"
+            android:text="你的單品前衛新穎\n沒人可以匹配\n趕緊上傳吧"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:baselineAligned="false">
+    <TextView
+        android:id="@+id/test222"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_span="4"
+        android:gravity="center"
+        android:text="同色單品穿搭"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        />
+</TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/sameColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:gravity="center"
+            android:text="你的單品前衛新穎\n沒人可以匹配\n趕緊上傳吧"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false">
+    <TextView
+        android:id="@+id/test333"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_span="4"
+        android:gravity="center"
+        android:text="同風格穿搭"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp"
+        />
+</TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="6"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/sameStyleNum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="4"
+            android:gravity="center"
+            android:text="你的單品風格\n沒人可以匹配\n趕緊上傳吧"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            />
+    </TableRow>
+
+</TableLayout>

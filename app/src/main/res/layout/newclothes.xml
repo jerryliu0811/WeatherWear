@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/background_4"
+    android:weightSum="4"  >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:gravity="center"
+            android:text="登錄單品"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="50dp"
+            />
+    </TableRow>
+
+    <TableRow android:layout_weight="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="4">
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20">
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.60">
+
+                <TextView
+                    android:id="@+id/textView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:text="分類"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    />
+                <Spinner android:id="@+id/type"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView88" />
+                <TextView
+                    android:id="@+id/textView99"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/type"
+                    android:text="樣式"
+                    android:textSize="30dp"
+                    />
+                <Spinner android:id="@+id/type2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:layout_below="@+id/textView99"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/textView8989"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:textStyle="bold"
+                    android:text="顏色"
+                    android:layout_below="@+id/type2"
+                    android:textSize="30dp"
+                    />
+                <Spinner
+                    android:id="@+id/type3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:layout_below="@+id/textView8989"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/textView6666"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:textStyle="bold"
+                    android:text="相片"
+                    android:layout_below="@+id/type3"
+                    android:textSize="30dp"
+                    android:layout_alignParentEnd="true" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="照張相片"
+                    android:id="@+id/new_clothes_camera"
+                    android:layout_alignTop="@+id/textView6666"
+                    android:layout_alignParentEnd="true" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/new_clothes_iv"
+                    android:layout_below="@+id/textView6666"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20">
+            </RelativeLayout>
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新增"
+                android:id="@+id/savebutton"
+                android:layout_gravity="right"
+                 />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/clearbutton"
+                android:layout_gravity="center_horizontal" />
+
+        </RelativeLayout>
+
+    </TableRow>
+</TableLayout >
+    <!--
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:id="@+id/t">
+        <Spinner android:id="@+id/type"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="20dp"
+            android:drawSelectorOnTop="true"
+            android:layout_marginTop="32dp"
+            android:layout_alignParentStart="true" />
+        <Spinner android:id="@+id/type2"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="20dp"
+            android:drawSelectorOnTop="true"
+            android:layout_below="@+id/type"
+            android:layout_alignParentStart="true" />
+        <Spinner
+            android:id="@+id/type3"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="20dp"
+            android:drawSelectorOnTop="true"
+            android:layout_below="@+id/type2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/savebutton"
+            android:layout_below="@+id/type3"
+            android:layout_alignStart="@+id/type3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/clearbutton"
+            android:layout_above="@+id/closet_title"
+            android:layout_toEndOf="@+id/savebutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="衣櫃:"
+            android:id="@+id/closet_title"
+            android:layout_alignTop="@+id/closetText"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/closetText"
+            android:text=""
+            android:layout_below="@+id/savebutton"
+            android:layout_alignStart="@+id/savebutton"
+            android:layout_alignEnd="@+id/clearbutton" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/new_clothes_iv"
+            android:layout_above="@+id/new_clothes_camera"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open camera"
+            android:id="@+id/new_clothes_camera"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+    -->
